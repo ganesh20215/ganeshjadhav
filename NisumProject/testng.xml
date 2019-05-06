@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="product" value="Tea Kettles"></parameter>
+  <parameter name="no" value="200"></parameter>
+  <parameter name="no2" value="300"></parameter>
+  <parameter name="productName" value="OXO Uplift Tea Kettle"></parameter>
+    <classes>
+      <class name="com.nisum.qa.testcases.ProductShopping">
+      <methods>
+      	<include name="verifyProductShopping" />
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

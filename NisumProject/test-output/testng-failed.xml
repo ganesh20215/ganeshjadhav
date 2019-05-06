@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="no2" value="300"/>
+    <parameter name="no" value="200"/>
+    <parameter name="product" value="Tea Kettles"/>
+    <parameter name="productName" value="OXO Uplift Tea Kettle"/>
+    <classes>
+      <class name="com.nisum.qa.testcases.ProductShopping">
+        <methods>
+          <include name="prerequsite"/>
+          <include name="verifyProductShopping"/>
+        </methods>
+      </class> <!-- com.nisum.qa.testcases.ProductShopping -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
